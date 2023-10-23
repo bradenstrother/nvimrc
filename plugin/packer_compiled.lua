@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/Users/bradenstrother/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  catppuccin = {
+    loaded = true,
+    path = "/Users/bradenstrother/.local/share/nvim/site/pack/packer/start/catppuccin",
+    url = "https://github.com/catppuccin/nvim"
+  },
   ["cellular-automaton.nvim"] = {
     loaded = true,
     path = "/Users/bradenstrother/.local/share/nvim/site/pack/packer/start/cellular-automaton.nvim",
@@ -129,6 +134,16 @@ _G.packer_plugins = {
     path = "/Users/bradenstrother/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/theprimeagen/harpoon"
   },
+  ["kanagawa.nvim"] = {
+    loaded = true,
+    path = "/Users/bradenstrother/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
+    url = "https://github.com/rebelot/kanagawa.nvim"
+  },
+  ["lsp-colors.nvim"] = {
+    loaded = true,
+    path = "/Users/bradenstrother/.local/share/nvim/site/pack/packer/start/lsp-colors.nvim",
+    url = "https://github.com/folke/lsp-colors.nvim"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/Users/bradenstrother/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
@@ -143,6 +158,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/bradenstrother/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  ["melange-nvim"] = {
+    loaded = true,
+    path = "/Users/bradenstrother/.local/share/nvim/site/pack/packer/start/melange-nvim",
+    url = "https://github.com/savq/melange-nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
