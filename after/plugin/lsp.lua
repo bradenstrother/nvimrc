@@ -3,10 +3,8 @@ local lsp = require("lsp-zero")
 lsp.preset("recommended")
 
 lsp.ensure_installed({
-  'cpp',
   'tsserver',
   'rust_analyzer',
-  'sumneko_lua',
   'eslint',
 })
 

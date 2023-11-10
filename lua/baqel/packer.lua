@@ -15,18 +15,18 @@ return require('packer').startup(function(use)
 
     use "savq/melange-nvim"
 
-    use "rebelot/kanagawa.nvim"
-
     use 'folke/lsp-colors.nvim'
 
     use { "catppuccin/nvim", as = "catppuccin" }
 
+    use {'rose-pine/neovim', as = 'rose-pine'}
+
     use({
-        'rose-pine/neovim',
-        as = 'rose-pine',
-        config = function()
-            vim.cmd('colorscheme rose-pine')
-        end
+        'rebelot/kanagawa.nvim',
+        as = 'kanagawa'
+       -- config = function()
+       --     vim.cmd('colorscheme kanagawa')
+       -- end
     })
 
     use({
